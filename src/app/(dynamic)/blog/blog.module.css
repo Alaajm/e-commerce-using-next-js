@@ -1,0 +1,26 @@
+.mainContainer{
+    height:100%;
+    margin-top: 50px;
+}
+.post{
+   display: flex;
+   gap: 50px;
+   margin-bottom: 50px;
+   align-items: center;
+   border: 1px solid gray;
+   padding: 10px;
+}
+.imageContainer{
+ 
+}
+.image{
+    object-fit: cover;
+    border-radius: 15px;
+}
+.title{
+    font-weight: 700px;
+}
+.desc{
+    font-size: 14px;
+    color: #999;
+}

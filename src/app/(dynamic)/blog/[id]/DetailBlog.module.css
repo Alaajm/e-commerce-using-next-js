@@ -1,0 +1,16 @@
+.header{}
+.info{}
+.title{
+}
+.desc{}
+
+.postImage {
+    object-fit: cover;
+    margin-top: 25px;
+   border-radius: 18px;
+}
+.content{
+    margin: 30px 0;
+
+}
+.text{}

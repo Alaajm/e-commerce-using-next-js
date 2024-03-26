@@ -1,0 +1,46 @@
+.container{
+    margin: 10px;
+}
+.nameSection{
+    margin-bottom: 25px;
+}
+.emailSection{
+    margin-bottom: 25px;
+}
+.messageSection{
+    margin-bottom: 25px;
+}
+.label{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.textField{
+   width:500px;
+   height: 50px;
+   border-radius: var(--size-border-radius);
+   padding: 5px;
+}
+.textField:focus, .textArea:focus{
+    outline: none;
+    border: 3px solid var(--color-primary);
+}
+.textArea{
+    width:500px;
+    padding: 5px;
+    border-radius: var(--size-border-radius);
+}
+.submit{
+    text-align: end;
+}
+.submitButton{
+    padding: 10px;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: max-content;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    border-radius: var(--size-border-radius);
+}

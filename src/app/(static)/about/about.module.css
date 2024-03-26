@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.textUnder{
+    margin-top: -150px;
+}
